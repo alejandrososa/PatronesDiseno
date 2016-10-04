@@ -7,12 +7,12 @@
  * Hora: 21:05
  */
 
-namespace builder;
+namespace factoryMethod;
 
 require_once "../Herramientas.php";
 require_once "Pedido.php";
 
-class PedidoContado extends Pedido
+class PedidoCredito extends Pedido
 {
     /**
      * @param double $cantidad
@@ -27,7 +27,7 @@ class PedidoContado extends Pedido
      */
     public function valida()
     {
-        \Herramientas::println('El pago del pedido a crédito de: ' .
+        \Herramientas::println('El pago del pedido al contado de: ' .
             number_format($this->cantidad, 2, ',', ' ') . ' se ha realizado.');
     }
 
@@ -36,6 +36,6 @@ class PedidoContado extends Pedido
      */
     public function pago()
     {
-        return ($this->cantidad >= 1000.0) && ($this->cantidad <= 5000.0);
+        return true;
     }
 }

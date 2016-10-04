@@ -7,7 +7,7 @@
  * Hora: 21:01
  */
 
-namespace builder;
+namespace factoryMethod;
 
 
 abstract class Pedido

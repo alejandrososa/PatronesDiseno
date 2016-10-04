@@ -4,21 +4,27 @@
  * patronesdiseno
  * Desarrollador: Alejandro Sosa
  * Fecha: 4/10/2016
- * Hora: 21:12
+ * Hora: 22:21
  */
 
-namespace FactoryMethod;
+namespace builder;
 
-use builder\ClienteContado;
-use builder\ClienteCredito;
+require_once "../Herramientas.php";
+require_once 'ConstructorDocumentacionVehiculoHtml.php';
+require_once 'ConstructorDocumentacionVehiculoPdf.php';
+require_once 'Vendedor.php';
+  
+$opcion = \Herramientas::readln('¿Desea generar documentación HTML (1) o PDF (2)?:');
 
-require_once 'ClienteContado.php';
-require_once 'ClienteCredito.php';
-
-$cliente = new ClienteContado();
-$cliente->nuevoPedido(2000.0);
-$cliente->nuevoPedido(10000.0);
-
-$cliente = new ClienteCredito();
-$cliente->nuevoPedido(2000.0);
-$cliente->nuevoPedido(10000.0);
+if ($opcion == '1')
+{
+    $constructor = new ConstructorDocumentacionVehiculoHtml();
+} 
+else 
+{
+    $constructor = new ConstructorDocumentacionVehiculoPdf();
+} 
+  
+$vendedor = new Vendedor($constructor); 
+$documento = $vendedor->generado('Martín'); 
+$documento->imprime(); 

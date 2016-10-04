@@ -1,1 +1,12 @@
 # Created by .ignore support plugin (hsz.mobi)
+### NetBeans template
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+.nb-gradle/
+
+### PHPSTORM
+.idea

@@ -9,3 +9,11 @@ El patrón se utiliza en los dominios siguientes:
 
 Un cliente necesita construir objetos complejos sin conocer su implementación.
 Un cliente necesita construir objetos complejos que tienen varias representaciones o implementaciones.
+
+
+**TEST**
+
+En consola puedes ejecutar el test
+    
+    cd /path/PatronesDiseno/builder
+    /usr/bin/php index.php

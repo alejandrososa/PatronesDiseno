@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0cf28d6c-8aea-4ff6-a649-4164deffa605" name="Default" comment="" />
+    <list default="true" id="0cf28d6c-8aea-4ff6-a649-4164deffa605" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builder/ConstructorDocumentacionVehiculo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builder/ConstructorDocumentacionVehiculoHtml.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builder/ConstructorDocumentacionVehiculoPdf.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builder/DocumentacionHtml.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builder/Documento.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/builder/Vendedor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/factoryMethod/LEER.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/factoryMethod/index.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/builder/Cliente.php" afterPath="$PROJECT_DIR$/factoryMethod/Cliente.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/builder/ClienteContado.php" afterPath="$PROJECT_DIR$/factoryMethod/ClienteContado.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/builder/ClienteCredito.php" afterPath="$PROJECT_DIR$/factoryMethod/ClienteCredito.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/builder/Pedido.php" afterPath="$PROJECT_DIR$/factoryMethod/Pedido.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/builder/PedidoContado.php" afterPath="$PROJECT_DIR$/factoryMethod/PedidoContado.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/builder/PedidoCredito.php" afterPath="$PROJECT_DIR$/factoryMethod/PedidoCredito.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/builder/LEER.md" afterPath="$PROJECT_DIR$/builder/LEER.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/builder/index.php" afterPath="$PROJECT_DIR$/builder/index.php" />
+    </list>
     <ignored path="patronesdiseno.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -22,22 +41,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/estrategia/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="25" column="21" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="21" />
-              <folding>
-                <element signature="e#6#123#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="FabricaVehiculoElectrico.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/abstractFactoria/FabricaVehiculoElectrico.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="0">
               <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
               <folding />
             </state>
@@ -54,14 +61,148 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/abstractFactoria/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
+            <state relative-caret-position="510">
               <caret line="40" column="36" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="36" />
               <folding>
                 <element signature="e#6#123#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Cliente.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/factoryMethod/Cliente.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="9" column="23" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClienteContado.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/factoryMethod/ClienteContado.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClienteCredito.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/factoryMethod/ClienteCredito.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DocumentacionPDF.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/builder/DocumentacionPDF.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="11" column="31" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConstructorDocumentacionVehiculoPdf.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/builder/ConstructorDocumentacionVehiculoPdf.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LEER.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/factoryMethod/LEER.md">
+          <provider editor-type-id="MarkdownFxPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="240">
+                <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/builder/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding>
+                <element signature="e#6#123#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LEER.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/builder/LEER.md">
+          <provider editor-type-id="MarkdownFxPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="255">
+                <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="18" selection-end-column="26" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConstructorDocumentacionVehiculoHtml.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/builder/ConstructorDocumentacionVehiculoHtml.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="14" column="64" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="64" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pedido.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/factoryMethod/Pedido.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PedidoContado.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/factoryMethod/PedidoContado.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PedidoCredito.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/factoryMethod/PedidoCredito.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -96,6 +237,33 @@
         <option value="$PROJECT_DIR$/abstractFactoria/FabricaVehiculo.php" />
         <option value="$PROJECT_DIR$/abstractFactoria/FabricaVehiculoGasolina.php" />
         <option value="$PROJECT_DIR$/abstractFactoria/ScooterGasolina.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/builder/Pedido.php" />
+        <option value="$PROJECT_DIR$/builder/PedidoCredito.php" />
+        <option value="$PROJECT_DIR$/builder/PedidoContado.php" />
+        <option value="$PROJECT_DIR$/builder/Cliente.php" />
+        <option value="$PROJECT_DIR$/builder/ClienteContado.php" />
+        <option value="$PROJECT_DIR$/builder/ClienteCredito.php" />
+        <option value="$PROJECT_DIR$/factoryMethod/Cliente.php" />
+        <option value="$PROJECT_DIR$/factoryMethod/ClienteContado.php" />
+        <option value="$PROJECT_DIR$/factoryMethod/ClienteCredito.php" />
+        <option value="$PROJECT_DIR$/factoryMethod/Pedido.php" />
+        <option value="$PROJECT_DIR$/factoryMethod/PedidoContado.php" />
+        <option value="$PROJECT_DIR$/factoryMethod/PedidoCredito.php" />
+        <option value="$PROJECT_DIR$/factoryMethod/index.php" />
+        <option value="$PROJECT_DIR$/builder/Documentacion.php" />
+        <option value="$PROJECT_DIR$/builder/Documento.php" />
+        <option value="$PROJECT_DIR$/builder/DocumentacionHtml.php" />
+        <option value="$PROJECT_DIR$/builder/DocumentacionPdf.php" />
+        <option value="$PROJECT_DIR$/builder/ConstructorDocumentacionVehiculo.php" />
+        <option value="$PROJECT_DIR$/builder/ConstructorDocumentacionVehiculoHtml.php" />
+        <option value="$PROJECT_DIR$/builder/DocumentacionHTML.php" />
+        <option value="$PROJECT_DIR$/builder/ConstructorDocumentacionVehiculoPdf.php" />
+        <option value="$PROJECT_DIR$/builder/Vendedor.php" />
+        <option value="$PROJECT_DIR$/builder/DocumentacionPDF.php" />
+        <option value="$PROJECT_DIR$/builder/index.php" />
+        <option value="$PROJECT_DIR$/builder/LEER.md" />
+        <option value="$PROJECT_DIR$/factoryMethod/LEER.md" />
       </list>
     </option>
   </component>
@@ -121,7 +289,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -167,7 +335,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="abstractFactoria" />
+              <option name="myItemId" value="factoryMethod" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -181,9 +349,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="ignore_missing_gitignore" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/builder" />
       <recent name="$PROJECT_DIR$/abstractFactoria" />
     </key>
   </component>
@@ -234,19 +404,21 @@
       <updated>1474914704550</updated>
       <workItem from="1474914705886" duration="2343000" />
       <workItem from="1474918283502" duration="8327000" />
-      <workItem from="1475354367276" duration="7300000" />
+      <workItem from="1475354367276" duration="8518000" />
+      <workItem from="1475608657987" duration="397000" />
+      <workItem from="1475609310017" duration="2379000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17970000" />
+    <option name="totallyTimeSpent" value="21964000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26037195" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26752505" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -283,6 +455,90 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/estrategia/index.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="21" />
+          <folding>
+            <element signature="e#6#123#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abstractFactoria/FabricaVehiculoElectrico.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abstractFactoria/FabricaVehiculo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="30" column="59" selection-start-line="30" selection-start-column="59" selection-end-line="30" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abstractFactoria/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="40" column="36" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="36" />
+          <folding>
+            <element signature="e#6#123#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/factoryMethod/Cliente.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/factoryMethod/ClienteContado.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/factoryMethod/ClienteCredito.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/factoryMethod/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding>
+            <element signature="e#6#123#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/factoryMethod/LEER.md">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/estrategia/index.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
@@ -295,9 +551,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="e#7#124#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -305,9 +558,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
-          <folding>
-            <element signature="e#6#123#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -330,9 +580,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="e#7#124#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -340,7 +587,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -362,7 +608,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -370,9 +615,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="e#7#124#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -380,15 +622,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="579">
           <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
-          <folding>
-            <element signature="e#6#123#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/estrategia/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
+        <state relative-caret-position="285">
           <caret line="25" column="21" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="21" />
           <folding>
             <element signature="e#6#123#0#PHP" expanded="true" />
@@ -400,7 +639,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1020">
           <caret line="94" column="59" selection-start-line="94" selection-start-column="59" selection-end-line="94" selection-end-column="59" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -408,13 +646,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="34" column="54" selection-start-line="34" selection-start-column="54" selection-end-line="34" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/abstractFactoria/FabricaVehiculoElectrico.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
+        <state relative-caret-position="0">
           <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
           <folding />
         </state>
@@ -424,7 +661,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -432,7 +668,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="36" column="37" selection-start-line="36" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -440,7 +675,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="39" column="61" selection-start-line="39" selection-start-column="61" selection-end-line="39" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -448,7 +682,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -456,7 +689,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -468,13 +700,179 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/abstractFactoria/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
+        <state relative-caret-position="510">
           <caret line="40" column="36" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="36" />
           <folding>
             <element signature="e#6#123#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/factoryMethod/Cliente.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/factoryMethod/ClienteContado.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/factoryMethod/Pedido.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/factoryMethod/PedidoContado.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/factoryMethod/PedidoCredito.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/factoryMethod/ClienteCredito.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/builder/ConstructorDocumentacionVehiculoPdf.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/builder/Vendedor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/factoryMethod/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <element signature="e#6#123#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/builder/ConstructorDocumentacionVehiculoHtml.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="14" column="64" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/builder/ConstructorDocumentacionVehiculo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/builder/Documento.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/builder/DocumentacionHTML.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/builder/DocumentacionPDF.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/builder/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#123#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/builder/LEER.md">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="255">
+            <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="18" selection-end-column="26" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/factoryMethod/LEER.md">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="240">
+            <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

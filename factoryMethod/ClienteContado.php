@@ -7,7 +7,7 @@
  * Hora: 21:10
  */
 
-namespace builder;
+namespace factoryMethod;
 
 require_once "Cliente.php";
 require_once "PedidoContado.php";
