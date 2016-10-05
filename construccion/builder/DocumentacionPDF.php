@@ -9,25 +9,25 @@
 
 namespace builder;
 
-require_once "../Herramientas.php";
+require_once "../../Herramientas.php";
 require_once "Documento.php";
 
-class DocumentacionHTML extends Documento
+class DocumentacionPDF extends Documento
 {
     /**
      * @param string $documento
      */
     public function agregaDocumento($documento)
     {
-        if (\Herramientas::str_start_with($documento, '<HTML>')) 
+        if (\Herramientas::str_start_with($documento, '<PDF>'))
         {
-            $this->contenido [] = $documento;
+            $this->contenido[] = $documento;
         }  
     }
 
     public function imprime()
     {
-        \Herramientas::println('Documento HTML');  
+        \Herramientas::println('Documento PDF');
         foreach ($this->contenido as $s)
         {
             \Herramientas::println($s);

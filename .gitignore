@@ -10,3 +10,10 @@ nbactions.xml
 
 ### PHPSTORM
 .idea
+
+/construccion/abstractFactoria/php_errors.php
+/construccion/builder/php_errors.php
+/construccion/decorador/php_errors.php
+/construccion/factoryMethod/php_errors.php
+/php_errors.log
+/construccion/abstractFactoria/php_errors.log

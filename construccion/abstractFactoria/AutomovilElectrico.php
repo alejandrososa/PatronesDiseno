@@ -10,12 +10,12 @@
 namespace abstractFactoria;
 
 require_once "Automovil.php";
-require_once "../Herramientas.php";
+require_once "../../Herramientas.php";
 
-class AutomovilGasolina extends Automovil
+class AutomovilElectrico extends Automovil
 {
     /**
-     * AutomovilGasolina constructor.
+     * AutomovilElectrico constructor.
      * @param $modelo
      * @param $color
      * @param $potencia
@@ -28,7 +28,7 @@ class AutomovilGasolina extends Automovil
 
     public function mostrarCaracteristicas()
     {
-        $txt = "Automovil gasolina de modelo: ". $this->modelo;
+        $txt = "Automovil eléctrico de modelo: ". $this->modelo;
         $txt .=  ", de color: ". $this->color;
         $txt .=  ", de potencia: ". $this->potencia;
         $txt .=  ", de espacio: ". $this->espacio;

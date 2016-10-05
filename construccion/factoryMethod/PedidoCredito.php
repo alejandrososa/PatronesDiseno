@@ -9,7 +9,7 @@
 
 namespace factoryMethod;
 
-require_once "../Herramientas.php";
+require_once "../../Herramientas.php";
 require_once "Pedido.php";
 
 class PedidoCredito extends Pedido
