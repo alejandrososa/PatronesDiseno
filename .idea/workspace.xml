@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0cf28d6c-8aea-4ff6-a649-4164deffa605" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LEER.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/estructuracion/bridge/FormAppletImpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/estructuracion/bridge/FormHtmlImpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/estructuracion/bridge/FormMatriculacionEspaña.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/estructuracion/bridge/FormMatriculacionPortugal.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/estructuracion/bridge/FormularioImpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/estructuracion/bridge/FormularioMatriculacion.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/estructuracion/bridge/LEER.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/estructuracion/bridge/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/construccion/builder/LEER.md" afterPath="$PROJECT_DIR$/construccion/builder/LEER.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/construccion/factoryMethod/LEER.md" afterPath="$PROJECT_DIR$/construccion/factoryMethod/LEER.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/construccion/prototype/LEER.md" afterPath="$PROJECT_DIR$/construccion/prototype/LEER.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/construccion/prototype/OrdenDePedido.php" afterPath="$PROJECT_DIR$/construccion/prototype/OrdenDePedido.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/construccion/singleton/Comercial.php" afterPath="$PROJECT_DIR$/construccion/singleton/Comercial.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/construccion/singleton/DocumentacionEnBlanco.php" afterPath="$PROJECT_DIR$/construccion/singleton/DocumentacionEnBlanco.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/construccion/singleton/LEER.md" afterPath="$PROJECT_DIR$/construccion/singleton/LEER.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/construccion/singleton/index.php" afterPath="$PROJECT_DIR$/construccion/singleton/index.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/LEER.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="patronesdiseno.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -280,19 +262,19 @@
       <workItem from="1474918283502" duration="8327000" />
       <workItem from="1475354367276" duration="8518000" />
       <workItem from="1475608657987" duration="397000" />
-      <workItem from="1475609310017" duration="11558000" />
+      <workItem from="1475609310017" duration="11623000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31143000" />
+    <option name="totallyTimeSpent" value="31208000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26752505" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26752505" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -649,7 +631,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LEER.md">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
