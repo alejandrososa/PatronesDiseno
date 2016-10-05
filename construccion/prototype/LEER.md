@@ -14,5 +14,5 @@ El sistema de objetos debe permanecer simple y no incluir una jerarquía paralel
 
 En consola puedes ejecutar el test
     
-    cd /path/PatronesDiseno/prototype
+    cd /path/PatronesDiseno/construccion/prototype
     /usr/bin/php index.php

@@ -16,13 +16,11 @@ class OrdenDePedido extends Documento
 {
     public function muestra()
     {
-        \Herramientas::println(
-            "Muestra el formulario de pedido: $this->contenido");
+        \Herramientas::println("Muestra el formulario de pedido: $this->contenido");
     }
 
     public function imprime()
     {
-        System . out . println(
-            "Imprime el formulario de pedido: $this->contenido");
+        System . out . println("Imprime el formulario de pedido: $this->contenido");
     }
 }

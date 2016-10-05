@@ -14,5 +14,5 @@ Una clase quiere transmitir a sus subclases las elecciones de instanciación apr
 
 En consola puedes ejecutar el test
     
-    cd /path/PatronesDiseno/factoryMethod
+    cd /path/PatronesDiseno/construccion/factoryMethod
     /usr/bin/php index.php

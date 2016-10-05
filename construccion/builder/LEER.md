@@ -15,5 +15,5 @@ Un cliente necesita construir objetos complejos que tienen varias representacion
 
 En consola puedes ejecutar el test
     
-    cd /path/PatronesDiseno/builder
+    cd /path/PatronesDiseno/construccion/builder
     /usr/bin/php index.php

@@ -1,18 +1,22 @@
 **DESCRIPCIÓN**
 
-El objetivo de este patrón es la creación de nuevos objetos mediante la duplicación de objetos existentes llamados prototipos que disponen de la capacidad de clonación.
+El patrón Singleton tiene como objetivo asegurar que una clase solo posee una instancia y proporcionar un método de clase único que devuelva esta instancia.
+
+En ciertos casos es útil gestionar clases que posean una única instancia. En el marco de los patrones de construcción, podemos citar el caso de una fábrica de productos (patrón Abstract Factory) del que solo es necesario crear una instancia.
+
 
 **CUANDO USARLO**
 
-El patrón Prototype se utiliza en los dominios siguientes:
+El patrón se utiliza en el siguiente caso:
 
-Un sistema de objetos debe crear instancias sin conocer la jerarquía de clases que las describe.
-Un sistema de objetos debe crear instancias de clases dinámicamente.
-El sistema de objetos debe permanecer simple y no incluir una jerarquía paralela de clases de fabricación.
+Solo debe existir una única instancia de una clase.
+Esta instancia solo debe estar accesible mediante un método de clase.
+
+El uso del patrón Singleton ofrece a su vez la posibilidad de dejar de utilizar variables globales.
 
 **TEST**
 
 En consola puedes ejecutar el test
     
-    cd /path/PatronesDiseno/prototype
+    cd /path/PatronesDiseno/contruccion/singleton
     /usr/bin/php index.php
